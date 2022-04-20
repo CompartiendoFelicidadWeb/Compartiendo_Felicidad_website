@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ffad0f;
+  padding: 2em;
+  display: flex;
+}
+
+header img {
+  height: 5em;
+  width: 8em;
+}
+
+header ul {
+  list-style: none;
+  margin: 0 2em;
+  font-size: 2em;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #eee;
+}
+
+header ul li a:hover {
+  color: #999;
+}
+
+header ul .actual {
+  color: #1d7151;
+}
+
+header ul .actual:hover {
+  color: #44dd98;
+}
+
+.mainHeader {
+  background-image: url(../../images/flowers.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+}
+
+.mainHeader p {
+  background-color: #eee;
+  color: #ffad0f;
+  text-shadow: 1px 1px 2px #000;
+  width: 15em;
+  font-size: 2em;
+  margin: 1em;
+  padding: 5px;
+  position: absolute;
+  bottom: 0;
+}
+
+.donaciones {
+  height: 80vh;
+  padding: 3em;
+  text-align: center;
+  border-top: 10px solid #ffad0f;
+  border-bottom: 10px solid #ffad0f;
+}
+
+.donaciones h2 {
+  font-size: 3em;
+}
+
+.donaciones .donaciones__descr {
+  font-size: 1.5em;
+  margin: 3em 0;
+}
+
+.donaciones .cardsContainer {
+  height: 45%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.donaciones .cardsContainer div {
+  width: 20%;
+  padding: 1em;
+  color: #eee;
+  box-shadow: 0 5px 10px #000;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.donaciones .cardsContainer div .plusIcon {
+  font-size: 2em;
+}
+
+.donaciones .cardsContainer .card1 {
+  background-color: #11dd78;
+}
+
+.donaciones .cardsContainer .card2 {
+  background-color: #ff8e3e;
+}
+
+.donaciones .cardsContainer .card3 {
+  background-color: #e230ff;
+}
+
+.sobreNosotrosContainer {
+  text-align: center;
+  padding: 3em 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sobreNosotrosContainer h2 {
+  font-size: 3em;
+}
+
+.sobreNosotrosContainer .nosotros__descr {
+  font-size: 1.5em;
+  margin-bottom: 2em;
+}
+
+.sobreNosotrosContainer .carousel {
+  align-self: center;
+  width: 100%;
+}
+
+.sobreNosotrosContainer .carousel .carousel-inner {
+  margin: auto;
+  height: 60vh;
+  width: 60vh;
+}
+
+.sobreNosotrosContainer .carousel .carousel-item {
+  height: 100%;
+}
+
+.sobreNosotrosContainer .carousel .carousel-item img {
+  height: 100%;
+}
+
+.sobreNosotrosContainer .carousel .carousel-item .carousel-caption {
+  bottom: 0;
+}
+
+.sobreNosotrosContainer .carousel .carousel-item h5 {
+  background: linear-gradient(90deg, transparent 20%, #222, transparent 80%);
+  color: #eee;
+  text-shadow: 1px 1px 2px #000;
+  bottom: 1em;
+}
+
+.sobreNosotrosContainer .carousel .carousel-control-prev-icon,
+.sobreNosotrosContainer .carousel .carousel-control-next-icon {
+  background-color: #000;
+}
+/*# sourceMappingURL=style.css.map */

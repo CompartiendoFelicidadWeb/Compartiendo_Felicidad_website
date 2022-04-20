@@ -1,0 +1,124 @@
+.mainHeader {
+    background-image: url(../../images/flowers.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+
+    p {
+        background-color: #eee;
+        color: #ffad0f;
+        text-shadow: 1px 1px 2px #000;
+        width: 15em;
+        font-size: 2em;
+        margin: 1em;
+        padding: 5px;
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+.donaciones {
+    height: 80vh;
+    padding: 3em;
+    text-align: center;
+    border-top: 10px solid #ffad0f;
+    border-bottom: 10px solid #ffad0f;
+
+    h2 {
+        font-size: 3em;
+    }
+
+    .donaciones__descr {
+        font-size: 1.5em;
+        margin: 3em 0;
+    }
+
+    .cardsContainer {
+        height: 45%;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+
+        div {
+            width: 20%;
+            padding: 1em;
+            color: #eee;
+            box-shadow: 0 5px 10px #000;
+            border-radius: 1em;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            .plusIcon {
+                font-size: 2em;
+            }
+        }
+
+        .card1 {
+            background-color: #11dd78;
+        }
+
+        .card2 {
+            background-color: #ff8e3e;
+        }
+
+        .card3 {
+            background-color: #e230ff;
+        }
+    }
+}
+
+.sobreNosotrosContainer {
+    text-align: center;
+    padding: 3em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h2 {
+        font-size: 3em;
+    }
+
+    .nosotros__descr {
+        font-size: 1.5em;
+        margin-bottom: 2em;
+    }
+
+    .carousel {
+        align-self: center;
+        width: 100%;
+
+        .carousel-inner {
+            margin: auto;
+            height: 60vh;
+            width: 60vh;
+        }
+
+        .carousel-item {
+            height: 100%;
+
+            img {
+                height: 100%;
+            }
+
+            .carousel-caption {
+                bottom: 0;
+            }
+
+            h5 {
+                background: linear-gradient(90deg, transparent 20%, #222, transparent 80%);
+                color: #eee;
+                text-shadow: 1px 1px 2px #000;
+                bottom: 1em;
+            }
+        }
+
+
+
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            background-color: #000;
+        }
+    }
+}
